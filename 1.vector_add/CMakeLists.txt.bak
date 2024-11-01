@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.16)
+
+project(MyProject)
+
+find_package(CUDA REQUIRED)
+
+# Add CUDA files to the project
+set(CUDA_FILES
+    vector_addition.cu
+)
+
+# Add C++ files to the project
+# set(CPP_FILES
+#     main.cpp
+# )
+
+# Tell CMake to compile the CUDA files
+set(CUDA_NVCC_FLAGS ${CUDA_NVCC_FLAGS};-O3)
+cuda_add_executable(MyProject ${CUDA_FILES})

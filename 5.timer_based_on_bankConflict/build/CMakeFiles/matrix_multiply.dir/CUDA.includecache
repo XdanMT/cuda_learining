@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.hpp
+iostream
+-
+
+/home/wzj/wzj/repos/cuda_test/5.timer_based_on_bankConflict/src/matrix_mul_gpu.cu
+iostream
+-
+utils.hpp
+-
+
+/home/wzj/wzj/repos/cuda_test/5.timer_based_on_bankConflict/src/matrix_mul_gpu_shared.cu
+stdio.h
+-
+utils.hpp
+-
+
+/home/wzj/wzj/repos/cuda_test/5.timer_based_on_bankConflict/src/matrix_mul_gpu_shared_conflict.cu
+stdio.h
+-
+utils.hpp
+-
+
+/home/wzj/wzj/repos/cuda_test/5.timer_based_on_bankConflict/src/matrix_mul_gpu_shared_conflict_pad.cu
+stdio.h
+-
+utils.hpp
+-
+

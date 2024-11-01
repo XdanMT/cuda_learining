@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/wzj/wzj/repos/cuda_test/build",
+  "command": "/usr/local/cuda/bin/nvcc    -g   -x cu -c /home/wzj/wzj/repos/cuda_test/vector_addition.cu -o CMakeFiles/vector_addition.dir/vector_addition.cu.o",
+  "file": "/home/wzj/wzj/repos/cuda_test/vector_addition.cu"
+}
+]

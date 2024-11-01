@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.hpp
+iostream
+-
+
+/home/wzj/wzj/repos/cuda_test/3.shared_memory/src/matrix_mul_gpu_shared.cu
+stdio.h
+-
+utils.hpp
+-
+

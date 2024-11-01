@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.hpp
+cuda_runtime.h
+-
+system_error
+-
+stdarg.h
+-
+
+/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cu
+cuda_runtime_api.h
+/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/cuda_runtime_api.h
+stdio.h
+/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/stdio.h
+iostream
+-
+utils.hpp
+/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/utils.hpp
+

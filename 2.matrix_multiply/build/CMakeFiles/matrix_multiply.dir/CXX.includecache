@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/matrix_mul.hpp
+
+../include/timer.hpp
+chrono
+-
+iostream
+-
+
+../include/utils.hpp
+iostream
+-
+
+/home/wzj/wzj/repos/cuda_test/2.matrix_multiply/main.cpp
+iostream
+-
+utils.hpp
+/home/wzj/wzj/repos/cuda_test/2.matrix_multiply/utils.hpp
+matrix_mul.hpp
+/home/wzj/wzj/repos/cuda_test/2.matrix_multiply/matrix_mul.hpp
+timer.hpp
+/home/wzj/wzj/repos/cuda_test/2.matrix_multiply/timer.hpp
+

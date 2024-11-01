@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/utils.hpp
+iostream
+-
+
+/home/wzj/wzj/repos/cuda_test/6.stream/src/sleep_kernel.cu
+cuda_runtime.h
+/home/wzj/wzj/repos/cuda_test/6.stream/src/cuda_runtime.h
+utils.hpp
+/home/wzj/wzj/repos/cuda_test/6.stream/src/utils.hpp
+
