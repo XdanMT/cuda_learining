@@ -1,0 +1,17 @@
+*********************Architecture related**********************
+Device id:                              0
+Device name:                            NVIDIA GeForce RTX 3060 Laptop GPU
+Device compute capability:              8.6
+GPU global meory size:                  5.77GB
+L2 cache size:                          3.00MB
+Shared memory per block:                48.00KB
+Shared memory per SM:                   100.00KB
+Device clock rate:                      1.43GHz
+Device memory clock rate:               7.00Ghz
+Number of SM:                           30
+Warp size:                              32
+*********************Parameter related************************
+Max block numbers:                      16
+Max threads per block:                  1024
+Max block dimension size:               1024:1024:64
+Max grid dimension size:                2147483647:65535:65535
