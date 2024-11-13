@@ -7,11 +7,11 @@ CUDA_FLAGS =
 
 CUDA_DEFINES = 
 
-CUDA_INCLUDES = -I"/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/include" -isystem=/usr/include/opencv4 
+CUDA_INCLUDES = -I"/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/include" -isystem=/usr/include/opencv4 
 
 CXX_FLAGS =  
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/include" -I/usr/local/cuda-11.6/include -isystem /usr/include/opencv4 
+CXX_INCLUDES = -I"/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/include" -I/usr/local/cuda-11.6/include -isystem /usr/include/opencv4 
 

@@ -6,3 +6,7 @@
 
 #IncludeRegexTransform: 
 
+/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation/src/image_resize_gpu.cu
+iostream
+-
+

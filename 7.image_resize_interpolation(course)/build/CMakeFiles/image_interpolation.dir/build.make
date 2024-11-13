@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)"
+CMAKE_SOURCE_DIR = "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build"
+CMAKE_BINARY_DIR = "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/image_interpolation.dir/depend.make
@@ -59,8 +59,8 @@ include CMakeFiles/image_interpolation.dir/flags.make
 
 CMakeFiles/image_interpolation.dir/src/preprocess.cu.o: CMakeFiles/image_interpolation.dir/flags.make
 CMakeFiles/image_interpolation.dir/src/preprocess.cu.o: ../src/preprocess.cu
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object CMakeFiles/image_interpolation.dir/src/preprocess.cu.o"
-	/usr/local/cuda/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cu" -o CMakeFiles/image_interpolation.dir/src/preprocess.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CUDA object CMakeFiles/image_interpolation.dir/src/preprocess.cu.o"
+	/usr/local/cuda/bin/nvcc  $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -x cu -c "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/preprocess.cu" -o CMakeFiles/image_interpolation.dir/src/preprocess.cu.o
 
 CMakeFiles/image_interpolation.dir/src/preprocess.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/image_interpolation.dir/src/preprocess.cu.i"
@@ -72,55 +72,55 @@ CMakeFiles/image_interpolation.dir/src/preprocess.cu.s: cmake_force
 
 CMakeFiles/image_interpolation.dir/main.cpp.o: CMakeFiles/image_interpolation.dir/flags.make
 CMakeFiles/image_interpolation.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_interpolation.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/main.cpp.o -c "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/image_interpolation.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/main.cpp.o -c "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/main.cpp"
 
 CMakeFiles/image_interpolation.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_interpolation.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/main.cpp" > CMakeFiles/image_interpolation.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/main.cpp" > CMakeFiles/image_interpolation.dir/main.cpp.i
 
 CMakeFiles/image_interpolation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_interpolation.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/main.cpp" -o CMakeFiles/image_interpolation.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/main.cpp" -o CMakeFiles/image_interpolation.dir/main.cpp.s
 
 CMakeFiles/image_interpolation.dir/src/utils.cpp.o: CMakeFiles/image_interpolation.dir/flags.make
 CMakeFiles/image_interpolation.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_interpolation.dir/src/utils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/src/utils.cpp.o -c "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/utils.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/image_interpolation.dir/src/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/src/utils.cpp.o -c "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/utils.cpp"
 
 CMakeFiles/image_interpolation.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_interpolation.dir/src/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/utils.cpp" > CMakeFiles/image_interpolation.dir/src/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/utils.cpp" > CMakeFiles/image_interpolation.dir/src/utils.cpp.i
 
 CMakeFiles/image_interpolation.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_interpolation.dir/src/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/utils.cpp" -o CMakeFiles/image_interpolation.dir/src/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/utils.cpp" -o CMakeFiles/image_interpolation.dir/src/utils.cpp.s
 
 CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o: CMakeFiles/image_interpolation.dir/flags.make
 CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o: ../src/preprocess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o -c "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o -c "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/preprocess.cpp"
 
 CMakeFiles/image_interpolation.dir/src/preprocess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_interpolation.dir/src/preprocess.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cpp" > CMakeFiles/image_interpolation.dir/src/preprocess.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/preprocess.cpp" > CMakeFiles/image_interpolation.dir/src/preprocess.cpp.i
 
 CMakeFiles/image_interpolation.dir/src/preprocess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_interpolation.dir/src/preprocess.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cpp" -o CMakeFiles/image_interpolation.dir/src/preprocess.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/preprocess.cpp" -o CMakeFiles/image_interpolation.dir/src/preprocess.cpp.s
 
 CMakeFiles/image_interpolation.dir/src/timer.cpp.o: CMakeFiles/image_interpolation.dir/flags.make
 CMakeFiles/image_interpolation.dir/src/timer.cpp.o: ../src/timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_interpolation.dir/src/timer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/src/timer.cpp.o -c "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/timer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/image_interpolation.dir/src/timer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/image_interpolation.dir/src/timer.cpp.o -c "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/timer.cpp"
 
 CMakeFiles/image_interpolation.dir/src/timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/image_interpolation.dir/src/timer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/timer.cpp" > CMakeFiles/image_interpolation.dir/src/timer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/timer.cpp" > CMakeFiles/image_interpolation.dir/src/timer.cpp.i
 
 CMakeFiles/image_interpolation.dir/src/timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/image_interpolation.dir/src/timer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/timer.cpp" -o CMakeFiles/image_interpolation.dir/src/timer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/timer.cpp" -o CMakeFiles/image_interpolation.dir/src/timer.cpp.s
 
 # Object files for target image_interpolation
 image_interpolation_OBJECTS = \
@@ -190,7 +190,7 @@ image_interpolation: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
 image_interpolation: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
 image_interpolation: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
 image_interpolation: CMakeFiles/image_interpolation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable image_interpolation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable image_interpolation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/image_interpolation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +203,6 @@ CMakeFiles/image_interpolation.dir/clean:
 .PHONY : CMakeFiles/image_interpolation.dir/clean
 
 CMakeFiles/image_interpolation.dir/depend:
-	cd "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)" "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)" "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build" "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build" "/home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/build/CMakeFiles/image_interpolation.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)" "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)" "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build" "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build" "/home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/build/CMakeFiles/image_interpolation.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/image_interpolation.dir/depend
 

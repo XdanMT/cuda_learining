@@ -5,7 +5,7 @@
 
 
 void image_preprocess_cpu(cv::Mat &input, cv::Mat &output, const int &tar_h, const int &tar_w, Timer &timer);
-void image_preprocess_gpu(cv::Mat input, cv::Mat output, int tar_h, int tar_w, Timer timer);
+void image_preprocess_gpu(cv::Mat &host_src, cv::Mat &host_tar, const int &tar_h, const int &tar_w, Timer &timer, const std::string &letterbox_type);
 
 
 

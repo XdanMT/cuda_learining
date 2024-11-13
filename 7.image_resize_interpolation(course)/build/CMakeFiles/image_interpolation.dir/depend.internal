@@ -3,12 +3,12 @@
 
 CMakeFiles/image_interpolation.dir/src/preprocess.cu.o
  ../include/utils.hpp
- /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cu
+ /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/preprocess.cu
 CMakeFiles/image_interpolation.dir/main.cpp.o
  ../include/preprocess.hpp
  ../include/timer.hpp
  ../include/utils.hpp
- /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/main.cpp
+ /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/main.cpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
  /usr/include/opencv4/opencv2/core/affine.hpp
@@ -195,7 +195,7 @@ CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o
  ../include/preprocess.hpp
  ../include/timer.hpp
  ../include/utils.hpp
- /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/preprocess.cpp
+ /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/preprocess.cpp
  /usr/include/opencv4/opencv2/calib3d.hpp
  /usr/include/opencv4/opencv2/core.hpp
  /usr/include/opencv4/opencv2/core/affine.hpp
@@ -381,7 +381,7 @@ CMakeFiles/image_interpolation.dir/src/preprocess.cpp.o
 CMakeFiles/image_interpolation.dir/src/timer.cpp.o
  ../include/timer.hpp
  ../include/utils.hpp
- /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/timer.cpp
+ /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/timer.cpp
  /usr/local/cuda-11.6/include/builtin_types.h
  /usr/local/cuda-11.6/include/channel_descriptor.h
  /usr/local/cuda-11.6/include/crt/common_functions.h
@@ -438,7 +438,7 @@ CMakeFiles/image_interpolation.dir/src/timer.cpp.o
  /usr/local/cuda-11.6/include/vector_types.h
 CMakeFiles/image_interpolation.dir/src/utils.cpp.o
  ../include/utils.hpp
- /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation(course)/src/utils.cpp
+ /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation(course)/src/utils.cpp
  /usr/local/cuda-11.6/include/builtin_types.h
  /usr/local/cuda-11.6/include/channel_descriptor.h
  /usr/local/cuda-11.6/include/crt/common_functions.h

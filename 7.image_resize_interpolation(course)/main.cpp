@@ -47,17 +47,19 @@ int main(){
     
     resizedInput_cpu = preprocess_cpu(input, tar_h, tar_w, timer);
     output_path = output_prefix + getPrefix(file_path) + "_resized_bilinear_cpu.png";
+    std::string output_path2 = output_prefix + getPrefix(file_path) + "_input.png";
     cv::cvtColor(resizedInput_cpu, resizedInput_cpu, cv::COLOR_RGB2BGR);
     cv::imwrite(output_path, resizedInput_cpu);
+    cv::imwrite(output_path2, input);
 
     /*
      * 一般来说，CUDA核函数设计成模版函数，方便多种不同类型的数据进行代码复用
      * 比如说，后面的课程会讲到的某些TensorRT plugin的核函数，对于输入tensor是FP32, FP16, INT8都会做类似的处理
      * 不熟悉模版函数与函数模版的人借用这个时间练习一下
     */
-    resizedInput_gpu = preprocess_gpu<uint8_t>(input, tar_h, tar_w, timer);
+    resizedInput_gpu = preprocess_gpu<uint8_t>(input, tar_h, tar_w, timer);    // 这里错了，input此时已经变成RGB了
     output_path = output_prefix + getPrefix(file_path) + "_resized_bilinear_letterbox_center_gpu_uint8.png";
-    cv::cvtColor(resizedInput_cpu, resizedInput_cpu, cv::COLOR_RGB2BGR);
+    // cv::cvtColor(resizedInput_cpu, resizedInput_cpu, cv::COLOR_RGB2BGR);    // 这一步没有意义，因为格式已经变成了BGR
     cv::imwrite(output_path, resizedInput_gpu);
 
     resizedInput_gpu = preprocess_gpu<float>(input, tar_h, tar_w, timer);

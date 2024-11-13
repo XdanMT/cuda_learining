@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation
+CMAKE_SOURCE_DIR = /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation/build
+CMAKE_BINARY_DIR = /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation/build/CMakeFiles /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation/build/CMakeFiles /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wzj/wzj/repos/cuda_test/7.image_resize_interpolation/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wzj/wzj/repos/cuda_learining/7.image_resize_interpolation/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ src/image_preprocess.cpp.s:
 	$(MAKE) -f CMakeFiles/image_interpolation.dir/build.make CMakeFiles/image_interpolation.dir/src/image_preprocess.cpp.s
 .PHONY : src/image_preprocess.cpp.s
 
+src/image_resize_gpu.o: src/image_resize_gpu.cu.o
+
+.PHONY : src/image_resize_gpu.o
+
+# target to build an object file
+src/image_resize_gpu.cu.o:
+	$(MAKE) -f CMakeFiles/image_interpolation.dir/build.make CMakeFiles/image_interpolation.dir/src/image_resize_gpu.cu.o
+.PHONY : src/image_resize_gpu.cu.o
+
+src/image_resize_gpu.i: src/image_resize_gpu.cu.i
+
+.PHONY : src/image_resize_gpu.i
+
+# target to preprocess a source file
+src/image_resize_gpu.cu.i:
+	$(MAKE) -f CMakeFiles/image_interpolation.dir/build.make CMakeFiles/image_interpolation.dir/src/image_resize_gpu.cu.i
+.PHONY : src/image_resize_gpu.cu.i
+
+src/image_resize_gpu.s: src/image_resize_gpu.cu.s
+
+.PHONY : src/image_resize_gpu.s
+
+# target to generate assembly for a file
+src/image_resize_gpu.cu.s:
+	$(MAKE) -f CMakeFiles/image_interpolation.dir/build.make CMakeFiles/image_interpolation.dir/src/image_resize_gpu.cu.s
+.PHONY : src/image_resize_gpu.cu.s
+
 src/utils.o: src/utils.cpp.o
 
 .PHONY : src/utils.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/image_preprocess.o"
 	@echo "... src/image_preprocess.i"
 	@echo "... src/image_preprocess.s"
+	@echo "... src/image_resize_gpu.o"
+	@echo "... src/image_resize_gpu.i"
+	@echo "... src/image_resize_gpu.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"

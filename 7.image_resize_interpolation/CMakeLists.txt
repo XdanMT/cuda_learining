@@ -11,7 +11,7 @@ find_package(OpenCV REQUIRED)
 
 # Add CUDA files to the project
 set(CUDA_FILES
-    # src/preprocess.cu
+    src/image_resize_gpu.cu
 )
 
 # Add CPP files to the project
